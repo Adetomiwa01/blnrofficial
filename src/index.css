@@ -300,3 +300,32 @@ hr {
   padding-left: 50%;
   
 }
+
+.state{
+  text-align: center;
+  padding-top: 20%;
+  line-height: 65px;
+  color: #262626;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.state- {
+  border: 1px solid #262626;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-radius: 10px;
+}
+
+.state-value {
+  background-color: #262626;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-left: 43%;
+  justify-content: center;
+  cursor: pointer;
+}
+.state-value > h1 {
+  padding-top: 20px;
+}

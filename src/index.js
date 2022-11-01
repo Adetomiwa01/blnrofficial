@@ -185,6 +185,28 @@ function Blog(props) {
   }
 
 
+  function GoingOut() {
+
+    const [ isGoingOut, setIsGoingOut] = React.useState(true)
+
+    function changeMind() {
+      setIsGoingOut(preState => !preState )
+    }
+
+      return (
+        <div className='state'>
+          <div className='state-'>
+          <h1 className='state-title' >Do you want to go out?</h1> 
+          <h4>(Click Me!)</h4>
+          <div onClick={changeMind} className='state-value'>
+            <h1>{isGoingOut ? "Yes":"No"} </h1>
+          </div>
+          </div>
+        </div>
+      )
+  }
+
+
           
 
 
@@ -226,6 +248,7 @@ function Blog(props) {
         {vacationBlog}
         <TrollNav/>
         <Meme/>
+        <GoingOut/>
         
       </div>
 
