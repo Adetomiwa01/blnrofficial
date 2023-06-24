@@ -1,11 +1,66 @@
 @import url('http://fonts.cdnfonts.com/css/poppins');
 
 body {
-  
+  height: '100vh';
   font-family: 'Poppins', sans-serif; 
   color: #181818;
-  
+  background-color: black;
 }
+
+html, body, #app, #app>div {
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav {
   padding-top: 22px;
   padding-left: 6%;
@@ -328,4 +383,36 @@ hr {
 }
 .state-value > h1 {
   padding-top: 20px;
+}
+.things {
+  margin-top: 30;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: grey;
+}
+
+button {
+    width: 70%;
+    background-color: #FF9C00;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+    height: 50px;
+    margin-top: 20px;
+    margin-Left: 10px
+}
+
+button:hover {
+    background-color: #FFFEF1;
+    color: #FF9C00;
+}
+
+button:focus {
+    outline: 0;
 }

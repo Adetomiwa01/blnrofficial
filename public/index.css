@@ -1,0 +1,11 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+@media screen and (max0width: 767px) {
+    html {
+        max-width: 767px;
+    }
+}
