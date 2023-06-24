@@ -17,7 +17,7 @@ const Username = () => {
                 <h4 style={{ marginLeft: '-7px'}}>Choose your username</h4>
                 <input type="text" style={{ height: '40px', width: '150px', background: '#D9D9D9', borderRadius: '10px' }} />
             </form>
-            <button style={{background: 'white', color: '#111111', height: '40px', padding: '2px', fontWeight: 'bold', marginLeft: '-4px'}}><Link to= "./dashboard" style = {{ background: '' ,textDecoration: 'none', color: '#181818', width: '100px', padding: '10px', marginLeft: '10px'}}>Save</Link></button>
+            <button style={{background: 'white', color: '#111111', height: '40px', padding: '2px', fontWeight: 'bold', marginLeft: '10px'}}><Link to= "./dashboard" style = {{ background: '' ,textDecoration: 'none', color: '#181818', width: '100px', padding: '10px', marginLeft: '15px'}}>Save</Link></button>
             </div>
 
         <div style={{textAlign: '',  color: 'white', marginLeft: '85px', marginRight: '20px', paddingBotton: '0px'}}>
