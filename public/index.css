@@ -4,8 +4,13 @@ html {
     height: fit-content;
 }
 
-@media screen and (max0width: 767px) {
+@media screen and (maxwidth: 767px) {
     html {
         max-width: 767px;
+         
     }
+    body {
+        width: 100%
+    }
+
 }

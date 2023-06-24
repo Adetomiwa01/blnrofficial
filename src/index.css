@@ -4,17 +4,60 @@ body {
   height: '100vh';
   font-family: 'Poppins', sans-serif; 
   color: #181818;
-  background-color: black;
+  background-color: #181818;
+  width: '100vh';
+  padding-right: 'none';
 }
 
 html, body, #app, #app>div {
-  height: 100%;
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (min-width: 1024px) {
   body {
-    max-width: 767px;
+    max-width: 600px;
+  }
+  .mainFull, .welcomePage, .profile, .username,.dashboard {
+    margin-left: 500px;
+  }
+  img {
+    margin-left: -20px;
+  }
+  .inputMain {
+    padding-left: 900px;
+  }
+  .button:hover {
+    height: "100px";
+    padding-Top: 1px;
+    background-color: '#FF9C00'
+    
+  }
+  .profile,.username,.dashboard {
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 50px;
+  }
+  
+}
+
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  body {
+    max-width: 600px;
+  }
+  .mainFull, .welcomePage, .profile,.username,.dashboard {
+    margin-left: 300px;
+    
+  }
+  img {
+    margin-left: -20px;
+  }
+  .profile,.username,.dashboard {
+    width: 500px;
+    border-radius: 10px;
+    padding-left: 150px;
   }
 }
 
@@ -92,7 +135,7 @@ html, body, #app, #app>div {
   
   background-color: #FF6267;
   padding: 7px 15px;
-  border: 1px solid black;
+  border: 1px solid #181818;
   border-radius: 15px;
 }
 
@@ -213,7 +256,7 @@ html, body, #app, #app>div {
   color: #918E9B;
 }
 .title {
-  color: black;
+  color: #181818;
   font-size: 18px;
 }
 .left {
@@ -334,7 +377,7 @@ hr {
 
 .form-input {
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid #181818;
   text-indent: 20px;
 }
 
