@@ -8,7 +8,7 @@ const Welcome = () => {
         <div className='welcomePage'>
         <div className='welcome' style={{ color: 'white,', paddingLeft: '17px', width: '50vh', marginLeft: "0", paddingRight: 'none', height: '50vh'}}>
             <div >
-                <Link to="/" style={{ display: 'flex', alignItems: 'center', margin: '20px', marginLeft: '110px', marginBottom: '60px', marginTop: '30px' }} >
+                <Link to="/" style={{ display: 'flex', alignItems: 'center', margin: '20px', marginLeft: '100px', marginBottom: '60px', marginTop: '30px' }} >
                     <img src={blnr} alt="" height={20}  />  
                 </Link>
             </div>

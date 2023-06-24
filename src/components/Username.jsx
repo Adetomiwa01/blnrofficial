@@ -14,7 +14,7 @@ const Username = () => {
     
         <div style={{ paddingTop:'40px', paddingBottom:'220px', paddingLeft:'3vh', paddingRight: '3vh'}}>
             <form action="/url" method="GET" style={{ paddingLeft: '30px'}}>
-                <h4 style={{ marginLeft: '-7px'}}>Choose your username</h4>
+                <h4 style={{ marginLeft: '-10px'}}>Choose your username</h4>
                 <input type="text" style={{ height: '40px', width: '150px', background: '#D9D9D9', borderRadius: '10px' }} />
             </form>
             <button style={{background: 'white', color: '#111111', height: '40px', padding: '2px', fontWeight: 'bold', marginLeft: '10px'}}><Link to= "./dashboard" style = {{ background: '' ,textDecoration: 'none', color: '#181818', width: '100px', padding: '10px', marginLeft: '15px'}}>Save</Link></button>
